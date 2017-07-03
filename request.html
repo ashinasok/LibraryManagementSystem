@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Firebase</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <script src="js/navigation.js"></script>
+  <div id="Maindiv">
+    <div id="navdiv">
+      <ul>
+        <h1>E-Library</h1>
+        <li><a href="View.html">View Books</a></li>
+        <li><a href="sort.html">Sort Data</a></li>
+        <li><a href="filter.html">Filter Data</a></li>
+        <li><a href="request.html">View Request</a></li>
+        <li><a href="index.html">Insert Book</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Insert data -->
+  <div id="insertdata">
+    <br><br><br><br>
+    <br><br>
+    Book Name  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : <input type="text" id="bookname"><br><br>
+    Author Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : <input type="text" id="authorname"><br><br>
+    Category &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : <input type="text" id="category"><br><br>
+    Publisher Name &nbsp&nbsp : <input type="text" id="publishername"><br><br>
+    Issue Date  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : <input type="date" id="issuedate"><br><br>
+    Number of Copies : <input type="number" id="noofcopies"><br><br>
+    Comments  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : <input type="text" id="comments"><br><br>
+    <button id="request_button">Request</button>
+    <script src="js/request.js"></script>
+  </div>
+</body>
+</html>
