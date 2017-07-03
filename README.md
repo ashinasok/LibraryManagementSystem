@@ -9,3 +9,4 @@ An active internet connection is must for this project to work properly.
 
 The project can be opened by simply clicking on index.html file.
 
+To clone the repo , type the following in terminal: git clone https://github.com/ashinasok/LibraryManagementSystem.git
